@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="main.css" rel="stylesheet">
+    <title>Daily Planner</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calendar light">
+        <div class="calendar_header">
+          <h1 class = "header_title">Daily Planner</h1>
+          <p class="header_copy">Stay on top</p>
+        </div>
+        <div class="calendar_plan">
+          <div class="cl_plan">
+            <div class="cl_title" id="day">Today</div>
+            <div class="cl_copy" id="date">22nd  April  2018</div>
+            <div class="cl_add cl_add_no">
+              <i class="plus-icon">&#xe800;</i>
+            </div>
+          </div>
+        </div>
+        <div class="calendar_events">
+          <p class="ce_title">Upcoming Events</p>
+          
+
+
+        </div>
+      </div>
+    </div>
+
+   <div class="modal">
+    <div class="modal-overlay modal-toggle"></div>
+    <div class="modal-wrapper light modal-transition">
+      <div class="modal-header">
+        <h1 class = "header_title">Add Item</h1>
+      </div>
+      
+      <div class="modal-body">
+        <div class="modal-content">
+         <div class="input-group">      
+            <input id="input" type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Item</label>
+          </div>
+          <div class="cl_update">
+              <i class="plus-icon">&#xe800;</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <!-- You can also require other files to run in this process -->
+    <script src="jquery.js"></script>
+    <script src="selectable.js"></script>
+    <script src="calendar.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+
