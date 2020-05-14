@@ -2,6 +2,10 @@
 
 A basic extremely simple application to plan your day. (Note that this is not an alternative to ToDo lists, but a complementary product)
 
+![Selection](https://github.com/RamiAwar/DayPlanner/blob/master/screenshots/selection.JPG)
+![Focus](https://github.com/RamiAwar/DayPlanner/blob/master/screenshots/choice.JPG)
+![Addition](https://github.com/RamiAwar/DayPlanner/blob/master/screenshots/add.JPG)
+![Standby](https://github.com/RamiAwar/DayPlanner/blob/master/screenshots/complete.JPG)
 
 
 ## To Use
